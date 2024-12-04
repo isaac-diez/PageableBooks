@@ -1,5 +1,5 @@
 # Use a Java 21 base image
-FROM openjdk:11-jre-slim
+FROM openjdk:21-jre-slim
 
 # Defines variable and sets default maven location for .jar
 ARG JAR_FILE=target/*.jar
